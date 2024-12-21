@@ -1,0 +1,38 @@
+<!doctype html language='English'>
+<head>
+    <title>Topic modeling graph</title>
+    <link rel="stylesheet" href="static/data/rubic.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <a href="https://github.com/Likich/TM_graph">
+        <img style="position: absolute; top: 0; right: 0; border: 0;"
+        src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67"
+        alt="Fork me on GitHub">
+    </a>
+    <h1>Topic modeling graph</h1>
+    <h3>Angelina Parfenova</h3>
+    <p class="links">
+        <a href="https://github.com/Likich/TM_graph">Get the source</a>
+    </p>
+    <p><b>Instructions:</b></p>
+    <p>This service currently works for English language.</p>
+    <form>
+        <input type="file" id="fileInput" />
+        <button onclick="uploadFile('fileInput')">Upload File</button>
+    </form>
+    <form id="graphForm" action="/graph/" method="POST">
+        <p>Method:
+            <select name="Method" id="s1">
+                <option value="LDA">LDA</option>
+                <option value="BERT">BERT</option>
+            </select>
+        </p>
+        <p>Max Number of Topics <input type="value" name="Topics number" /></p>
+        <p>Number of Keywords: <input type="number" name="KeywordsNumber" /></p>
+        <p>
+            <input type="submit" value="Submit">
+        </p>
+    </form>
+</body>
+</html>
