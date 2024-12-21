@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "Dockerfile",
-      "use": "@vercel/docker"
-    }
-  ],
+  "name": "your-app-name",
+  "builds": [],
   "routes": [
-    { "src": "/(.*)", "dest": "Dockerfile" }
+    { "src": "/(.*)", "dest": "/" }
   ]
 }
