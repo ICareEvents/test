@@ -72,7 +72,7 @@ stack-data==0.6.3
 stop-words==2018.7.23
 threadpoolctl==3.2.0
 tokenizers==0.15.0
-torch==2.1.0
+torch==2.0.1
 tqdm==4.66.1
 traitlets==5.14.0
 transformers==4.34.0
