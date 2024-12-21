@@ -1,23 +1,27 @@
-# ===============================
+##################################
 # requirements.txt
-# ===============================
+##################################
 
-# 1) Install system dependencies for distutils by creating a "packages.txt" (see next section).
-# 2) Pin setuptools so distutils is available for building wheels.
-setuptools==65.6.3
-wheel==0.41.2
+# System & build tools (distutils) come from packages.txt (see below)
+# For building wheels & packaging:
+setuptools>=65.6.3
+wheel>=0.41.2
 
-# 3) Streamlit
+# Streamlit
 streamlit==1.26.0
 
-# 4) Pin versions that are compatible
-numpy==1.23.5       # must be >= 1.23.2 so pandas 1.5.3 is satisfied
+# Data/ML libs, pinned to known-compatible versions for Python 3.12
+numpy>=1.23.2,<2.0     # must be >=1.23.2 to satisfy pandas==1.5.3
 pandas==1.5.3
-nltk==3.7
+nltk==3.8.1
 textblob==0.17.1
 gensim==4.1.2
 spacy==3.5.3
 pyLDAvis==3.3.1
-torch==2.0.1
-transformers==4.31.0
 scikit-learn==1.2.2
+
+# PyTorch that has wheels for Python 3.12
+torch==2.1.0
+
+# Transformers for summarization, etc.
+transformers==4.31.0
