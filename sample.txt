@@ -1,0 +1,11 @@
+Interviewer: Could you describe your day-to-day tasks and responsibilities at your job?
+Informant: Sure. I work as a software developer on a small team. I mainly write code in Python,
+           review pull requests, and collaborate with teammates to plan new features.
+
+Interviewer: What aspects of your role do you find most fulfilling?
+Informant: I love problem-solving and seeing my work help our product improve. Also, it's rewarding
+           when I learn new libraries or frameworks to make our process more efficient.
+
+Interviewer: Are there any challenges you face regularly?
+Informant: Sometimes deadlines feel a bit tight, and the codebase can be complex. We also need more
+           guidance from management on long-term goals.

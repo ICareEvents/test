@@ -1,0 +1,11 @@
+streamlit==1.26.0
+pandas==1.5.3
+numpy==1.22.0
+nltk==3.7
+textblob==0.17.1
+gensim==4.1.2
+spacy==3.5.3
+pyLDAvis==3.3.1
+torch==2.0.1
+transformers==4.31.0
+scikit-learn==1.2.2
