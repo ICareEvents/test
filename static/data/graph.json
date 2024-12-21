@@ -1,0 +1,12 @@
+{
+  "links": [
+    {"source": 0, "target": 100, "color": "#75DAFA"},
+    {"source": 0, "target": 55, "color": "#75DAFA"}
+    ...
+  ],
+  "nodes": [
+    {"name": "soon"},
+    {"name": "somewhat"},
+    ...
+  ]
+}
